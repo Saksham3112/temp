@@ -1,0 +1,15 @@
+<html>
+    <head> </head>
+    <body>
+        <h1>Welcome to home {{name}}</h1>
+        <ul>
+            <!-- Use {{ "python code" }} to use jinja templates -->
+            <li>{{"a"+"b"}}</li>
+        </ul>
+        <ol>
+            {% for i in arr%}
+            <li>{{i}}</li>
+            {% endfor%}
+        </ol>
+    </body>
+</html>
